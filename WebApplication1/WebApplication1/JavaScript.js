@@ -22,7 +22,6 @@ function getListbox() {
         listbox.options.add(c, i);
     }
 }
-
 function getComboA(sel) {
     var value = sel.value;
     for (var i = 0 ; i < myArr.users.length ; i++) {
